@@ -11,9 +11,9 @@ bool checkPrime(uint64_t) {
 }
 
 uint64_t nPrime(uint64_t n) {
-        uint64_t = 2;
-        uint64_t = 1;
-        char;
+        uint64_t value = 2;
+        uint64_t counter = 1;
+        char flag;
         while (counter != n + 1) {
                 flag = 1;
                 for (int i = 2; i * i <= value; i++) {
@@ -29,7 +29,7 @@ uint64_t nPrime(uint64_t n) {
 }
 
 uint64_t nextPrime(uint64_t value) {
-       value++;
+        value++;
         bool unfound = true, flag = true;
         while (unfound) {
                 flag = true;
